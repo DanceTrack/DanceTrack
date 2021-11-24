@@ -6,7 +6,7 @@ This code is based on [ByteTrack](https://github.com/ifzhang/ByteTrack). We prov
 ## Installation
 * Follow installation steps in [ByteTrack](https://github.com/ifzhang/ByteTrack). Replace the original files with updated ones here.
 
-* Prepare DanceTrack dataset as in [Dataset](https://github.com/PeizeSun/DanceTrack_pre/blob/main/README.md).
+* Prepare DanceTrack dataset as in [Dataset](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
 
 * Convert annotations to coco format:
 ~~~
@@ -33,7 +33,7 @@ python3 tools/track.py -f exps/example/dancetrack/yolox_x.py -c YOLOX_outputs/yo
 ~~~
 The output txt will be saved in YOLOX_outputs/yolox_x/track_results folder.
 
-Evaluate the results as in [Evaluation](https://github.com/PeizeSun/DanceTrack_pre/blob/main/README.md).
+Evaluate the results as in [Evaluation](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
 
 
 ## Test set
@@ -42,7 +42,7 @@ python3 tools/track.py -f exps/example/dancetrack/yolox_x.py -c YOLOX_outputs/yo
 ~~~
 The output txt will be saved in YOLOX_outputs/yolox_x/track_test_results folder.
 
-Submit the results to CodaLab as in [Challenge](https://github.com/PeizeSun/DanceTrack_pre/blob/main/README.md).
+Submit the results to CodaLab as in [Challenge](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
 
 
 ## Citation

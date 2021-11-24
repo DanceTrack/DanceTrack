@@ -29,7 +29,7 @@ python3 setup.py build develop
 ~~~
 We use [DCNv2_pytorch_1.7](https://github.com/ifzhang/DCNv2/tree/pytorch_1.7) in the backbone. Previous versions can be found in [DCNv2](https://github.com/CharlesShang/DCNv2).
 
-* Prepare DanceTrack dataset as in [Dataset](https://github.com/PeizeSun/DanceTrack_pre/blob/main/README.md).
+* Prepare DanceTrack dataset as in [Dataset](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
 
 * Convert annotations to coco format:
 ~~~
@@ -72,7 +72,7 @@ python3 test.py ctdet --dataset dancetrack --exp_id dancetrack_ctdet_dla --load_
 ~~~
 The output txt will be saved in ../exp/ctdet/dancetrack_ctdet_dla/results folder.
 
-* Evaluate the results as in [Evaluation](https://github.com/PeizeSun/DanceTrack_pre/blob/main/README.md).
+* Evaluate the results as in [Evaluation](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
 
 * Demo on one of DanceTrack val videos:
 ~~~
@@ -84,7 +84,7 @@ The output images will be saved in CenterNet/exp/ctdet/default/debug folder.
 
 
 ## DanceTrack+COCO bbox, bbox
-* Prepare joint-dataset of DanceTrack and COCO as in [dancetrack_coco](https://github.com/PeizeSun/DanceTrack_pre/blob/main/CenterNet/joint_train/dancetrack_coco.py).
+* Prepare joint-dataset of DanceTrack and COCO as in [dancetrack_coco](https://github.com/DanceTrack/DanceTrack/blob/main/CenterNet/joint_train/dancetrack_coco.py).
 ~~~
 cd {DanceTrack ROOT}
 cd CenterNet
@@ -105,7 +105,7 @@ python3 test.py ctdet --dataset dancetrack --num_classes 80 --exp_id dancetrack_
 ~~~
 The output txt will be saved in CenterNet/exp/ctdet/dancetrack_coco_bbox_ctdet_dla/results folder.
 
-* Evaluate the results as in [Evaluation](https://github.com/PeizeSun/DanceTrack_pre/blob/main/README.md).
+* Evaluate the results as in [Evaluation](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
 
 * Demo on one of DanceTrack val videos:
 ~~~
@@ -129,7 +129,7 @@ python3 test.py ctseg --exp_id ctseg_coco_dla --load_model ../exp/ctseg/ctseg_co
 |box|36.8|54.4|39.4|16.8|40.2|53.8|
 |mask|31.0|49.8|32.0|11.0|34.4|49.4|
 
-* Prepare joint-dataset of DanceTrack and COCO as in [dancetrack_coco](https://github.com/PeizeSun/DanceTrack_pre/blob/main/CenterNet/joint_train/dancetrack_coco.py).
+* Prepare joint-dataset of DanceTrack and COCO as in [dancetrack_coco](https://github.com/DanceTrack/DanceTrack/blob/main/CenterNet/joint_train/dancetrack_coco.py).
 ~~~
 cd {DanceTrack ROOT}
 cd CenterNet
@@ -152,7 +152,7 @@ python3 test.py ctseg --dataset dancetrack --num_classes 80 --exp_id dancetrack_
 
 The output txt will be saved in CenterNet/exp/ctseg/dancetrack_coco_mask_ctseg_dla/results folder.
 
-* Evaluate the results as in [Evaluation](https://github.com/PeizeSun/DanceTrack_pre/blob/main/README.md).
+* Evaluate the results as in [Evaluation](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
 
 * Demo on one of DanceTrack val videos:
 ~~~
@@ -164,7 +164,7 @@ The output images will be saved in CenterNet/exp/ctseg/default/debug folder.
 
 
 ## DanceTrack+COCO pose, bbox / pose
-* Prepare joint-dataset of DanceTrack and COCO as in [dancetrack_coco_hp](https://github.com/PeizeSun/DanceTrack_pre/blob/main/CenterNet/joint_train/dancetrack_coco_hp.py).
+* Prepare joint-dataset of DanceTrack and COCO as in [dancetrack_coco_hp](https://github.com/DanceTrack/DanceTrack/blob/main/CenterNet/joint_train/dancetrack_coco_hp.py).
 ~~~
 cd {DanceTrack ROOT}
 cd CenterNet
@@ -187,7 +187,7 @@ python3 test.py multi_pose --dataset dancetrack --num_classes 1 --exp_id dancetr
 
 The output txt will be saved in CenterNet/exp/multi_pose/dancetrack_coco_hp_dla/results folder.
 
-* Evaluate the results as in [Evaluation](https://github.com/PeizeSun/DanceTrack_pre/blob/main/README.md).
+* Evaluate the results as in [Evaluation](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
 
 * Demo on one of DanceTrack val videos:
 ~~~
@@ -199,7 +199,7 @@ The output images will be saved in CenterNet/exp/multi_pose/default/debug folder
 
 
 ## DanceTrack+KITTI depth, bbox / depth
-* Prepare joint-dataset of DanceTrack and KITTI as in [dancetrack_kitti](https://github.com/PeizeSun/DanceTrack_pre/blob/main/CenterNet/joint_train/dancetrack_kitti.py).
+* Prepare joint-dataset of DanceTrack and KITTI as in [dancetrack_kitti](https://github.com/DanceTrack/DanceTrack/blob/main/CenterNet/joint_train/dancetrack_kitti.py).
 ~~~
 cd {DanceTrack ROOT}
 cd CenterNet
@@ -224,7 +224,7 @@ python3 test.py ddd --dataset dancetrack --num_classes 3 --exp_id dancetrack_kit
 
 The output txt will be saved in CenterNet/exp/ddd/dancetrack_kitti/results folder.
 
-* Evaluate the results as in [Evaluation](https://github.com/PeizeSun/DanceTrack_pre/blob/main/README.md).
+* Evaluate the results as in [Evaluation](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
 
 * Demo on one of DanceTrack val videos:
 ~~~
