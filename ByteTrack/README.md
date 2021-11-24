@@ -42,7 +42,7 @@ python3 tools/track.py -f exps/example/dancetrack/yolox_x.py -c YOLOX_outputs/yo
 ~~~
 The output txt will be saved in YOLOX_outputs/yolox_x/track_test_results folder.
 
-Submit the results to CodaLab as in [Challenge](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
+Submit the results to CodaLab as in [Competition](https://github.com/DanceTrack/DanceTrack/blob/main/README.md).
 
 
 ## Citation
