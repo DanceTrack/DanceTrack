@@ -1,0 +1,9 @@
+opencv-python
+Cython
+numba
+progress
+matplotlib
+easydict
+scipy
+lap
+cython-bbox
