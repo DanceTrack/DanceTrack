@@ -244,7 +244,7 @@ If you find this project useful for your research, please use DanceTrack and Cen
 @article{peize2021dance,
   title   =  {DanceTrack: Multi-Object Tracking in Uniform Appearance and Diverse Motion},
   author  =  {Peize Sun and Jinkun Cao and Yi Jiang and Zehuan Yuan and Song Bai and Kris Kitani and Ping Luo},
-  journal =  {arXiv preprint arXiv:21xx.xxxxx},
+  journal =  {arXiv preprint arXiv:2111.14690},
   year    =  {2021}
 }
 

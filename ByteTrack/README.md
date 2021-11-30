@@ -19,7 +19,7 @@ cd ..
 
 
 ## Training 
-The COCO pretrained YOLOX model can be downloaded from their [model zoo](https://github.com/Megvii-BaseDetection/YOLOX/tree/0.1.0). After downloading the pretrained models, put them under {DanceTrack ROOT}/ByteTrack/pretrained.
+The COCO pretrained YOLOX model can be downloaded from their [model zoo](https://github.com/Megvii-BaseDetection/YOLOX). After downloading the pretrained models, put them under {DanceTrack ROOT}/ByteTrack/pretrained.
 ~~~
 cd {DanceTrack ROOT}/ByteTrack
 python3 tools/train.py -f exps/example/dancetrack/yolox_x.py -d 8 -b 48 --fp16 -o -c pretrained/yolox_x.pth
@@ -52,7 +52,7 @@ If you find this project useful for your research, please use DanceTrack and Byt
 @article{peize2021dance,
   title   =  {DanceTrack: Multi-Object Tracking in Uniform Appearance and Diverse Motion},
   author  =  {Peize Sun and Jinkun Cao and Yi Jiang and Zehuan Yuan and Song Bai and Kris Kitani and Ping Luo},
-  journal =  {arXiv preprint arXiv:21xx.xxxxx},
+  journal =  {arXiv preprint arXiv:2111.14690},
   year    =  {2021}
 }
 

@@ -4,10 +4,13 @@ DanceTrack is a benchmark for tracking multiple objects in uniform appearance an
 
 DanceTrack provides box and identity annotations. 
 
-DanceTrack contains 100 videos, 40 for training(annotations public), 25 for validation(annotations public) and 35 for testing(annotations unpublic). For evaluating on test set, please see [CodaLab](https://competitions.codalab.org/competitions/35786?secret_key=a2073574-bcfb-4712-90b4-bc3459e65161). 
+DanceTrack contains 100 videos, 40 for training(annotations public), 25 for validation(annotations public) and 35 for testing(annotations unpublic). For evaluating on test set, please see [CodaLab](https://competitions.codalab.org/competitions/35786). 
 
 <div align="center"><img src="assets/demo.jpg" ></div>
 </br>
+
+## Paper
+[DanceTrack: Multi-Object Tracking in Uniform Appearance and Diverse Motion](https://arxiv.org/abs/2111.14690)
 
 
 ## Dataset
@@ -94,7 +97,7 @@ Each line of dancetrack000x.txt contains:
 <frame>, <id>, <bb_left>, <bb_top>, <bb_width>, <bb_height>, <conf>, -1, -1, -1
 ~~~
 
-Archive tracker folder to tracker.zip and submit to [CodaLab](https://competitions.codalab.org/competitions/35786?secret_key=a2073574-bcfb-4712-90b4-bc3459e65161). Please note: (1) archive tracker folder, instead of txt files. (2) the folder name must be tracker. 
+Archive tracker folder to tracker.zip and submit to [CodaLab](https://competitions.codalab.org/competitions/35786). Please note: (1) archive tracker folder, instead of txt files. (2) the folder name must be tracker. 
 
 The return will be:  
 
@@ -102,7 +105,7 @@ The return will be:
 |-------------|---------|---------|---------|---------|---------|
 | tracker     |  47.7   |  71.0   |   32.1  |   89.6  |  53.9   |
 
-For more detailed metrics and metrics on each video, click on [download output from scoring step](https://competitions.codalab.org/competitions/35786?secret_key=a2073574-bcfb-4712-90b4-bc3459e65161#participate-submit_results) in CodaLab.
+For more detailed metrics and metrics on each video, click on [download output from scoring step](https://competitions.codalab.org/competitions/35786#participate-submit_results) in CodaLab.
 
 Run the visualization code:
 ``` 
@@ -168,7 +171,7 @@ If you use DanceTrack in your research or wish to refer to the baseline results 
 @article{peize2021dance,
   title   =  {DanceTrack: Multi-Object Tracking in Uniform Appearance and Diverse Motion},
   author  =  {Peize Sun and Jinkun Cao and Yi Jiang and Zehuan Yuan and Song Bai and Kris Kitani and Ping Luo},
-  journal =  {arXiv preprint arXiv:21xx.xxxxx},
+  journal =  {arXiv preprint arXiv:2111.14690},
   year    =  {2021}
 }
 
