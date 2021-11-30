@@ -126,7 +126,6 @@ class MOTEvaluator:
             model = model_trt
             
         tracker = BYTETracker(self.args)
-        ori_thresh = self.args.track_thresh
         for cur_iter, (imgs, _, info_imgs, ids) in enumerate(
             progress_bar(self.dataloader)
         ):
@@ -136,28 +135,6 @@ class MOTEvaluator:
                 video_id = info_imgs[3].item()
                 img_file_name = info_imgs[4]
                 video_name = img_file_name[0].split('/')[0]
-                if video_name == 'MOT17-05-FRCNN' or video_name == 'MOT17-06-FRCNN':
-                    self.args.track_buffer = 14
-                elif video_name == 'MOT17-13-FRCNN' or video_name == 'MOT17-14-FRCNN':
-                    self.args.track_buffer = 25
-                else:
-                    self.args.track_buffer = 30
-
-                if video_name == 'MOT17-01-FRCNN':
-                    self.args.track_thresh = 0.65
-                elif video_name == 'MOT17-06-FRCNN':
-                    self.args.track_thresh = 0.65
-                elif video_name == 'MOT17-12-FRCNN':
-                    self.args.track_thresh = 0.7
-                elif video_name == 'MOT17-14-FRCNN':
-                    self.args.track_thresh = 0.67
-                else:
-                    self.args.track_thresh = ori_thresh
-                
-                if video_name == 'MOT20-06' or video_name == 'MOT20-08':
-                    self.args.track_thresh = 0.3
-                else:
-                    self.args.track_thresh = ori_thresh
 
                 if video_name not in video_names:
                     video_names[video_id] = video_name
@@ -196,8 +173,6 @@ class MOTEvaluator:
             for t in online_targets:
                 tlwh = t.tlwh
                 tid = t.track_id
-#                 vertical = tlwh[2] / tlwh[3] > 1.6
-#                 if tlwh[2] * tlwh[3] > self.args.min_box_area and not vertical:
                 if tlwh[2] * tlwh[3] > self.args.min_box_area:
                     online_tlwhs.append(tlwh)
                     online_ids.append(tid)
