@@ -14,7 +14,7 @@ DanceTrack contains 100 videos, 40 for training(annotations public), 25 for vali
 
 
 ## Dataset
-Download the dataset from [Google Drive](https://drive.google.com/drive/folders/1-uxcNTi7dhuDNGC5MmzXyllLzmVbzXay?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA)(code:awew).
+Download the dataset from [Google Drive](https://drive.google.com/drive/folders/1-uxcNTi7dhuDNGC5MmzXyllLzmVbzXay?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA) (code:awew).
 
 Organize as follows:
 ~~~
@@ -40,7 +40,7 @@ Organize as follows:
 |-- tools
 |-- ...
 ~~~
-Each line of gt.txt contains:
+We align our dataset annotations with MOT, so each line in  gt.txt contains:
 ~~~
 <frame>, <id>, <bb_left>, <bb_top>, <bb_width>, <bb_height>, 1, 1, 1
 ~~~
@@ -48,9 +48,9 @@ Each line of gt.txt contains:
 
 
 ## Evaluation
-We use [ByteTrack](https://github.com/ifzhang/ByteTrack) as an example of using DanceTrack. For training details, please see [instruction](ByteTrack/README.md). We provide the trained models in [Google Drive](https://drive.google.com/drive/folders/1-uxcNTi7dhuDNGC5MmzXyllLzmVbzXay?usp=sharing) or or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA)(code:awew).
+We use [ByteTrack](https://github.com/ifzhang/ByteTrack) as an example of using DanceTrack. For training details, please see [instruction](ByteTrack/README.md). We provide the trained models in [Google Drive](https://drive.google.com/drive/folders/1-uxcNTi7dhuDNGC5MmzXyllLzmVbzXay?usp=sharing) or or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA) (code:awew).
 
-TRACKER_NAME is ByteTrack. Organize the results of validation set as follows:
+To do evaluation with our provided tookit, we organize the results of validation set as follows:
 ~~~
 {DanceTrack ROOT}
 |-- val
@@ -59,12 +59,12 @@ TRACKER_NAME is ByteTrack. Organize the results of validation set as follows:
 |   |   |-- ...
 |   |-- ...
 ~~~
-Each line of dancetrack000x.txt contains:
+where dancetrack000x.txt is the output file of the video episode dancetrack000x, each line of which contains:
 ~~~
 <frame>, <id>, <bb_left>, <bb_top>, <bb_width>, <bb_height>, <conf>, -1, -1, -1
 ~~~
 
-Run the evalution code:
+Then, simply run the evalution code:
 ```
 python3 TrackEval/scripts/run_mot_challenge.py --SPLIT_TO_EVAL val  --METRICS HOTA CLEAR Identity  --GT_FOLDER dancetrack/val --SEQMAP_FILE dancetrack/val_seqmap.txt --SKIP_SPLIT_FOL True   --TRACKERS_TO_EVAL '' --TRACKER_SUB_FOLDER ''  --USE_PARALLEL True --NUM_PARALLEL_CORES 8 --PLOT_CURVES False --TRACKERS_FOLDER val/TRACKER_NAME 
 ```
@@ -74,7 +74,7 @@ python3 TrackEval/scripts/run_mot_challenge.py --SPLIT_TO_EVAL val  --METRICS HO
 | ByteTrack   |  47.1   |  70.5   |   31.5  |   88.2  |  51.9   |
 
     
-Run the visualization code:
+Besides, we also provide the visualization script. The usage is as follow:
 ``` 
 python3 tools/txt2video_dance.py --img_path dancetrack --split val --tracker TRACKER_NAME
 ```
@@ -164,7 +164,7 @@ The evaluation metrics and code are from [MOT Challenge](https://motchallenge.ne
 
 ## Citation
 
-If you use DanceTrack in your research or wish to refer to the baseline results published here, please use the following BibTeX entries:
+If you use DanceTrack in your research or wish to refer to the baseline results published here, please use the following BibTeX entry:
 
 ```BibTeX
 
