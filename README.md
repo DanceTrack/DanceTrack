@@ -7,7 +7,7 @@ DanceTrack provides box and identity annotations. It contains 100 videos, 40 for
 <div align="center"><img src="assets/demo.jpg" ></div>
 </br>
 
-## Paper
+## Paper (CVPR2022)
 [DanceTrack: Multi-Object Tracking in Uniform Appearance and Diverse Motion](https://arxiv.org/abs/2111.14690)
 
 
