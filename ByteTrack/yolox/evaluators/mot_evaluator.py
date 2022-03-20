@@ -13,6 +13,7 @@ from yolox.utils import (
     xyxy2xywh
 )
 from yolox.tracker.byte_tracker import BYTETracker
+# from yolox.tracker.lstm_tracker import LSTMTracker as BYTETracker
 from yolox.sort_tracker.sort import Sort
 from yolox.deepsort_tracker.deepsort import DeepSort
 from yolox.motdt_tracker.motdt_tracker import OnlineTracker
@@ -89,12 +90,9 @@ class MOTEvaluator:
         """
         COCO average precision (AP) Evaluation. Iterate inference on the test dataset
         and the results are evaluated by COCO API.
-
         NOTE: This function will change training mode to False, please save states if needed.
-
         Args:
             model : model to evaluate.
-
         Returns:
             ap50_95 (float) : COCO AP of IoU=50:95
             ap50 (float) : COCO AP of IoU=50
@@ -211,12 +209,9 @@ class MOTEvaluator:
         """
         COCO average precision (AP) Evaluation. Iterate inference on the test dataset
         and the results are evaluated by COCO API.
-
         NOTE: This function will change training mode to False, please save states if needed.
-
         Args:
             model : model to evaluate.
-
         Returns:
             ap50_95 (float) : COCO AP of IoU=50:95
             ap50 (float) : COCO AP of IoU=50
@@ -335,12 +330,9 @@ class MOTEvaluator:
         """
         COCO average precision (AP) Evaluation. Iterate inference on the test dataset
         and the results are evaluated by COCO API.
-
         NOTE: This function will change training mode to False, please save states if needed.
-
         Args:
             model : model to evaluate.
-
         Returns:
             ap50_95 (float) : COCO AP of IoU=50:95
             ap50 (float) : COCO AP of IoU=50
@@ -459,12 +451,9 @@ class MOTEvaluator:
         """
         COCO average precision (AP) Evaluation. Iterate inference on the test dataset
         and the results are evaluated by COCO API.
-
         NOTE: This function will change training mode to False, please save states if needed.
-
         Args:
             model : model to evaluate.
-
         Returns:
             ap50_95 (float) : COCO AP of IoU=50:95
             ap50 (float) : COCO AP of IoU=50
