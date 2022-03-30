@@ -1,7 +1,7 @@
 # ByteTrack
 An example of using DanceTrack. 
 
-This code is based on [ByteTrack](https://github.com/ifzhang/ByteTrack). We provide the trained models in [Google Drive](https://drive.google.com/drive/folders/1IHDFBwyVMJew78H6a-gGtXMOb-fGZRlh?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA)(code:awew).
+This code is based on [ByteTrack](https://github.com/ifzhang/ByteTrack). We provide the trained models in [Google Drive](https://drive.google.com/drive/u/2/folders/1v1hiIrgH0b5-ZavRAVa1MJS8iGr-Pn5U) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA)(code:awew).
 
 ## Installation
 * Follow installation steps in [ByteTrack](https://github.com/ifzhang/ByteTrack). Replace the original files with updated ones here.
