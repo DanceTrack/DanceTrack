@@ -2,7 +2,7 @@
 
 DanceTrack is a benchmark for tracking multiple objects in uniform appearance and diverse motion.
 
-DanceTrack provides box and identity annotations. It contains 100 videos, 40 for training(annotations public), 25 for validation(annotations public) and 35 for testing(annotations unpublic). For evaluating on test set, please see [CodaLab](https://competitions.codalab.org/competitions/35786). We also have a [Project Site](https://sites.google.com/view/dancetrackmot) for exhibition. 
+DanceTrack provides box and identity annotations. It contains 100 videos, 40 for training(annotations public), 25 for validation(annotations public) and 35 for testing(annotations unpublic). For evaluating on test set, please see [CodaLab](https://competitions.codalab.org/competitions/35786). We also have a [Project Page](https://dancetrack.github.io/) for exhibition. 
 
 <div align="center"><img src="assets/demo.jpg" ></div>
 </br>
