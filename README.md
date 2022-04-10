@@ -11,6 +11,10 @@ DanceTrack provides box and identity annotations. It contains 100 videos, 40 for
 [DanceTrack: Multi-Object Tracking in Uniform Appearance and Diverse Motion](https://arxiv.org/abs/2111.14690)
 
 
+## News
+- (04/2022) We are organizing [Multiple Object Tracking and Segmentation in Complex Environments Workshop](https://motcomplex.github.io/), ECCV 2022. 
+
+
 ## Dataset
 Download the dataset from [Google Drive](https://drive.google.com/drive/folders/1-uxcNTi7dhuDNGC5MmzXyllLzmVbzXay?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA) (code:awew).
 
@@ -146,7 +150,8 @@ python3 tools/img2video.py --img_file CenterNet/exp/ddd/default/debug --video_na
   
 
 
-## Agreement   
+## Agreement
+- The annotations of DanceTrack are licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 - The dataset of DanceTrack is available for **non-commercial** research purposes only.
 - All videos and images of DanceTrack are obtained from the Internet which are not property of HKU, CMU or ByteDance. These three organizations are not responsible for the content nor the meaning of these videos and images.
 - The code of DanceTrack is released under the MIT License.  
