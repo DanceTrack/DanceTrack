@@ -2,7 +2,7 @@
 
 DanceTrack is a benchmark for tracking multiple objects in uniform appearance and diverse motion.
 
-DanceTrack provides box and identity annotations. It contains 100 videos, 40 for training(annotations public), 25 for validation(annotations public) and 35 for testing(annotations unpublic). For evaluating on test set, please see [CodaLab](https://competitions.codalab.org/competitions/35786). We also have a [Project Page](https://dancetrack.github.io/) for exhibition. 
+DanceTrack provides box and identity annotations. It contains 100 videos, 40 for training(annotations public), 25 for validation(annotations public) and 35 for testing(annotations unpublic). For evaluating on test set, please see [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/5830)([Old CodaLab](https://competitions.codalab.org/competitions/35786)). We also have a [Project Page](https://dancetrack.github.io/) for exhibition. 
 
 <div align="center"><img src="assets/demo.jpg" ></div>
 </br>
@@ -99,7 +99,7 @@ Each line of dancetrack000x.txt contains:
 <frame>, <id>, <bb_left>, <bb_top>, <bb_width>, <bb_height>, <conf>, -1, -1, -1
 ~~~
 
-Archive tracker folder to tracker.zip and submit to [CodaLab](https://competitions.codalab.org/competitions/35786). Please note: (1) archive tracker folder, instead of txt files. (2) the folder name must be tracker. 
+Archive tracker folder to tracker.zip and submit to [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/5830). Please note: (1) archive tracker folder, instead of txt files. (2) the folder name must be tracker. 
 
 The return will be:  
 
