@@ -12,7 +12,20 @@ DanceTrack provides box and identity annotations. It contains 100 videos, 40 for
 
 
 ## News
+- (05/2023) We list some awesome research papers and projects here you may find interesting. Welcome new pull request to add new links !
 - (04/2022) We are organizing [Multiple Object Tracking and Segmentation in Complex Environments Workshop](https://motcomplex.github.io/), ECCV 2022. 
+
+
+## Paper List
+
+| Title | Intro | Description | Links |
+|:----:|:----:|:----:|:----:|
+| [SUSHI](https://arxiv.org/abs/2212.03038) | ![](https://github.com/dvl-tum/SUSHI/raw/main/assets/teaser.png) | Unifying Short and Long-Term Tracking with Graph Hierarchies | [[Github](https://github.com/dvl-tum/SUSHI)]|
+| [MOTRv2](https://arxiv.org/abs/2211.09791) | ![](https://raw.githubusercontent.com/zyayoung/oss/main/motrv2_main.jpg) | MOTRv2: Bootstrapping End-to-End Multi-Object Tracking by Pretrained Object Detectors | [[Github](https://github.com/megvii-research/MOTRv2)]|
+| [MOT_FCG](https://arxiv.org/abs/2210.03355) | Multiple Object Tracking from appearance by hierarchically clustering tracklets | Multiple Object Tracking from appearance by hierarchically clustering tracklets | [[Github](https://github.com/NII-Satoh-Lab/MOT_FCG)]|
+| [OC-SORT](https://arxiv.org/abs/2203.14360) | ![](https://github.com/noahcao/OC_SORT/raw/master/assets/teaser.png) | Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking| [[Github](https://github.com/noahcao/OC_SORT)]|
+| [StrongSORT](https://arxiv.org/abs/2202.13514) | ![](https://github.com/dyhBUPT/StrongSORT/raw/master/assets/MOTA-IDF1-HOTA.png) | StrongSORT: Make DeepSORT Great Again | [[Github](https://github.com/dyhBUPT/StrongSORT)]|
+| [MOTR](https://arxiv.org/abs/2105.03247) | ![](https://github.com/megvii-research/MOTR/blob/main/figs/motr.png) | MOTR: End-to-End Multiple-Object Tracking with TRansformer | [[Github](https://github.com/megvii-research/MOTR)]|
 
 
 ## Dataset
