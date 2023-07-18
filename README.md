@@ -63,7 +63,7 @@ We align our dataset annotations with MOT, so each line in  gt.txt contains:
 
 
 ## Evaluation
-We use [ByteTrack](https://github.com/ifzhang/ByteTrack) as an example of using DanceTrack. For training details, please see [instruction](ByteTrack/README.md). We provide the trained models in [Google Drive](https://drive.google.com/drive/folders/1-uxcNTi7dhuDNGC5MmzXyllLzmVbzXay?usp=sharing) or or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA) (code:awew).
+We use [ByteTrack](https://github.com/ifzhang/ByteTrack) as an example of using DanceTrack. For training details, please see [instruction](ByteTrack/README.md). We provide the trained models in [Google Drive](https://drive.google.com/drive/folders/1ASZCFpPEfSOJRktR8qQ_ZoT9nZR0hOea?usp=sharing) or or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA) (code:awew).
 
 To do evaluation with our provided tookit, we organize the results of validation set as follows:
 ~~~
@@ -129,7 +129,7 @@ python3 tools/txt2video_dance.py --img_path dancetrack --split test --tracker tr
 
 
 ## Joint-Training
-We use joint-training with other datasets to predict mask, pose and depth.  [CenterNet](https://github.com/xingyizhou/CenterNet) is provided as an example. For details of joint-trainig, please see [joint-training instruction](CenterNet/README.md). We provide the trained models in [Google Drive](https://drive.google.com/drive/folders/1-uxcNTi7dhuDNGC5MmzXyllLzmVbzXay?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA)(code:awew).
+We use joint-training with other datasets to predict mask, pose and depth.  [CenterNet](https://github.com/xingyizhou/CenterNet) is provided as an example. For details of joint-trainig, please see [joint-training instruction](CenterNet/README.md). We provide the trained models in [Google Drive](https://drive.google.com/drive/folders/1ASZCFpPEfSOJRktR8qQ_ZoT9nZR0hOea?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA)(code:awew).
  
 For mask demo, run
 ~~~
