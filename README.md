@@ -29,7 +29,7 @@ DanceTrack provides box and identity annotations. It contains 100 videos, 40 for
 
 
 ## Dataset
-Download the dataset from [Hugging Face](https://huggingface.co/datasets/noahcao/dancetrack), [Google Drive](https://drive.google.com/drive/folders/1ASZCFpPEfSOJRktR8qQ_ZoT9nZR0hOea?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA) (code:awew).
+Download the dataset from [Hugging Face](https://huggingface.co/datasets/noahcao/dancetrack), Google Drive (deprecated, use HuggingFance instead) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA) (code:awew).
 
 Organize as follows:
 ~~~
@@ -63,7 +63,7 @@ We align our dataset annotations with MOT, so each line in  gt.txt contains:
 
 
 ## Evaluation
-We use [ByteTrack](https://github.com/ifzhang/ByteTrack) as an example of using DanceTrack. For training details, please see [instruction](ByteTrack/README.md). We provide the trained models in [Hugging Face](https://huggingface.co/noahcao/dancetrack_models), [Google Drive](https://drive.google.com/drive/folders/1ASZCFpPEfSOJRktR8qQ_ZoT9nZR0hOea?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA) (code:awew).
+We use [ByteTrack](https://github.com/ifzhang/ByteTrack) as an example of using DanceTrack. For training details, please see [instruction](ByteTrack/README.md). We provide the trained models in [Hugging Face](https://huggingface.co/noahcao/dancetrack_models), Google Drive (deprecated, use HuggingFance instead) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA) (code:awew).
 
 To do evaluation with our provided tookit, we organize the results of validation set as follows:
 ~~~
