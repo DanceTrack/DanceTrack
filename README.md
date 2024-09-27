@@ -129,7 +129,7 @@ python3 tools/txt2video_dance.py --img_path dancetrack --split test --tracker tr
 
 
 ## Joint-Training
-We use joint-training with other datasets to predict mask, pose and depth.  [CenterNet](https://github.com/xingyizhou/CenterNet) is provided as an example. For details of joint-trainig, please see [joint-training instruction](CenterNet/README.md). We provide the trained models in [Google Drive](https://drive.google.com/drive/folders/1ASZCFpPEfSOJRktR8qQ_ZoT9nZR0hOea?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA)(code:awew).
+We use joint-training with other datasets to predict mask, pose and depth.  [CenterNet](https://github.com/xingyizhou/CenterNet) is provided as an example. For details of joint-trainig, please see [joint-training instruction](CenterNet/README.md). We provide the trained models in [Hugging Face](https://huggingface.co/noahcao/dancetrack_models), Google Drive (deprecated, use HuggingFance instead)  or [Baidu Drive](https://pan.baidu.com/s/19O3IvYNzzrcLqlODHKYUwA)(code:awew).
  
 For mask demo, run
 ~~~
