@@ -12,6 +12,7 @@ DanceTrack provides box and identity annotations. It contains 100 videos, 40 for
 
 
 ## News
+- (03/2026) We updated the benchmark website to [CodaBench](https://www.codabench.org/competitions/14885/) because Codalab has been discontinued.
 - (05/2023) We list some awesome research papers and projects here you may find interesting. Welcome new pull request to add new links !
 - (04/2022) We are organizing [Multiple Object Tracking and Segmentation in Complex Environments Workshop](https://motcomplex.github.io/), ECCV 2022. 
 
