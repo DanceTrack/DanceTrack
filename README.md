@@ -17,6 +17,10 @@ DanceTrack provides box and identity annotations. It contains 100 videos, 40 for
 - (04/2022) We are organizing [Multiple Object Tracking and Segmentation in Complex Environments Workshop](https://motcomplex.github.io/), ECCV 2022. 
 
 
+## Leaderboard
+
+See [LEADERBOARD.md](LEADERBOARD.md) for published results on the DanceTrack test set with CodaBench entries. A [sortable version](LEADERBOARD.csv) is also available.
+
 ## Paper List
 
 | Title | Intro | Description | Links |
