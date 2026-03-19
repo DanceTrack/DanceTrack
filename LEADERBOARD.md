@@ -24,4 +24,4 @@ Please add your result here according to the publication date order (the newer t
 
 To add your method to this leaderboard:
 1. Submit results to [CodaBench](https://www.codabench.org/competitions/14885/) and make it public.
-2. Open a pull request adding a row to both `LEADERBOARD.md` and `LEADERBOARD.csv` with your method name, CodaBench submission ID, performance metrics, paper link, venue, and publication date.
+2. Open a pull request (with "[LEADERBOARD]" in the title) adding a row to both `LEADERBOARD.md` and `LEADERBOARD.csv` with your method name, CodaBench submission ID, performance metrics, paper link, venue, and publication date.
