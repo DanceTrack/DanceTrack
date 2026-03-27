@@ -1,8 +1,8 @@
-numpy==1.18.1
+numpy==1.26.3
 scipy==1.4.1
-pycocotools==2.0.2
-matplotlib==3.2.1
-opencv_python==4.4.0.46
-scikit_image==0.16.2
-pytest==6.0.1
-Pillow==8.1.2
+pycocotools==2.0.7
+matplotlib==3.8.2
+opencv-python==4.9.0.80
+scikit-image==0.22.0
+Pillow==10.1.0
+pytest==8.2.0
